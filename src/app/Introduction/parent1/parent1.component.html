@@ -1,0 +1,9 @@
+<div class="card" style="width: 18rem;">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">An item</li>
+      <li class="list-group-item">A second item: {{dataFromChildToParent1}}</li>
+      <li class="list-group-item">A third item</li>
+    </ul>
+  </div>
+
+  <app-child1 [data]="dataFromParentToChild1" (itemEvent)="emitDataFromchild($event)"></app-child1>

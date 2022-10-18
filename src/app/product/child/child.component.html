@@ -1,0 +1,17 @@
+<div class="container mt-3">
+    <h2>Child Component</h2>
+    <div class="card">
+      <!-- <div class="card-header">Header</div> -->
+      <div class="card-body">
+       <p>This is Child Component</p>
+
+        <p>Data from parent component is :
+            {{dataFromChildToParent}}
+        </p>
+
+        <br>
+        <button class="btn btn-info" (click)="sendDataFromParent()">Send data from child to parent</button>
+      </div> 
+      <div class="card-footer">Footer</div>
+    </div>
+  </div>

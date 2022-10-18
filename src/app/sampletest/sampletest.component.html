@@ -1,0 +1,34 @@
+<div class="container">
+
+<p>sampletest works!</p>
+
+<!-- <div *ngIf="checkFlag">
+    This Is True.
+</div>
+<div *ngIf="!checkFlag">
+    This Is False.
+</div> -->
+
+<div *ngIf="checkFlag else showngTemplate">
+    This Is True.
+</div>
+
+<ng-template #showngTemplate>
+    this is else Block
+</ng-template>
+<br><br>
+
+<div *ngIf="subjectFlag">
+<div *ngFor="let sub of subject">
+    {{sub}}
+</div>
+</div>
+
+<ng-container *ngIf="subjectFlag">
+    <div *ngFor="let sub of subject">
+        {{sub}}
+    </div>
+</ng-container>
+
+
+</div>
