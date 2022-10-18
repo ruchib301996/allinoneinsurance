@@ -17,6 +17,7 @@ import {ButtonModule} from 'primeng/button';
 import { Parent1Component } from './Introduction/parent1/parent1.component';
 import { Child1Component } from './Introduction/parent1/child1/child1.component';
 import { SampletestComponent } from './sampletest/sampletest.component';
+import { TestcompComponent } from './testcomp/testcomp.component';
 
 // import {AccordionModule} from 'primeng/accordion';
 // import {MenuItem} from 'primeng/api';
@@ -35,7 +36,8 @@ import { SampletestComponent } from './sampletest/sampletest.component';
     ChildComponent,
     Parent1Component,
     Child1Component,
-    SampletestComponent
+    SampletestComponent,
+    TestcompComponent
    
     
   ],
